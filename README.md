@@ -27,10 +27,10 @@ The analysis of the election shows that:
   - Diane DeGette who received 73.8% of the vote and 272,892 votes
   
 ## Challenge 3 Overview
-For the challenge, the PyPoll codes need to be refactored to include calculations for each county's voting turnout counts and percentages.  From the county results, the client also needs to know the county with the largest turnout for this local election.  These county summary results are to be added to the Election Results output file.
-- The refactored codes still only looping through the entire data file only once.
-- While going through each row, in addition to the existing if statement that adds new candidate to the candidate list and counting candidate votes, the refactored codes added another if statement looking at the county name for the ballot record and counting county turnout accordingly.
-- The refactored codes added County Vote Summary section and the Largest County Turnout info to the Election Analysis output file.
+For the challenge, the PyPoll codes need to be refactored to include calculations for each county's voting turnout counts and percentages.  From the county results, the client also needs to know the county with the largest turnout for this local election.  These county summary results are to be added to the Election Analysis output file.
+- The refactored codes still only loop through the entire data file only once.
+- While going through each row, in addition to the existing if statement that adds new candidate to the candidate list and counting candidate votes, the refactored codes insert another if statement looking at the county name from the ballot record and counting county turnout accordingly.
+- The refactored codes add County Vote Summary section and the Largest County Turnout info to the Election Analysis output file.
 
 ## Challenge Summary
 The analysis of the election now shows that:
@@ -43,7 +43,7 @@ The analysis of the election now shows that:
   - Jefferson: 10.5% (38,855)
   - Denver: 82.8% (306,055)
   - Arapahoe: 6.7% (24,801)
-- The largest County Turnout was from Denver County.
+- The largest county turnout was from Denver.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
